@@ -14,25 +14,7 @@ const styles ={
     alignItems: "center"
   }
 }
-const menuBtn = document.querySelector('.menu-btn');
-      const navbar = document.querySelector('.navbar ul');
-        let menuOpen = false;
-        menuBtn.addEventListener('click', () => {
-          if(!menuOpen) {
-            menuBtn.classList.add('open');
-            navbar.classList.add('open');
-            menuOpen = true;
-          } else {
-            menuBtn.classList.remove('open');
-            navbar.classList.remove('open');
-            menuOpen = false;
-          }
-          document.querySelectorAll('.nav-link').forEach(n => n.addEventListener("click",()=>{
-            menuBtn.classList.remove('open');
-            navbar.classList.remove('open');
-            menuOpen = false;
-          }))
-        });
+
 
 
 function NavBar() {
@@ -69,5 +51,25 @@ function NavBar() {
     </header>
   )
 }
+
+const menuBtn = document.querySelector('.menu-btn');
+      const navbar = document.querySelector('.navbar ul');
+        let menuOpen = false;
+        menuBtn.addEventListener('click', () => {
+          if(!menuOpen) {
+            menuBtn.classList.add('open');
+            navbar.classList.add('open');
+            menuOpen = true;
+          } else {
+            menuBtn.classList.remove('open');
+            navbar.classList.remove('open');
+            menuOpen = false;
+          }
+          document.querySelectorAll('.nav-link').forEach(n => n.addEventListener("click",()=>{
+            menuBtn.classList.remove('open');
+            navbar.classList.remove('open');
+            menuOpen = false;
+          }))
+        });
 
 export default NavBar
