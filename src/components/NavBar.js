@@ -52,10 +52,10 @@ function NavBar() {
   )
 }
 
+window.onload=function(){
 const menuBtn = document.querySelector('.menu-btn');
       const navbar = document.querySelector('.navbar ul');
         let menuOpen = false;
-        if(menuBtn){
         menuBtn.addEventListener('click',()=>{
           if(!menuOpen) {
             menuBtn.classList.add('open');
