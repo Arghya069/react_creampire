@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react_creampire/static/css/main.d6b468df.css",
+    "main.js": "/react_creampire/static/js/main.1892e810.js",
+    "static/js/787.8dc75242.chunk.js": "/react_creampire/static/js/787.8dc75242.chunk.js",
+    "index.html": "/react_creampire/index.html",
+    "main.d6b468df.css.map": "/react_creampire/static/css/main.d6b468df.css.map",
+    "main.1892e810.js.map": "/react_creampire/static/js/main.1892e810.js.map",
+    "787.8dc75242.chunk.js.map": "/react_creampire/static/js/787.8dc75242.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6b468df.css",
+    "static/js/main.1892e810.js"
+  ]
+}
