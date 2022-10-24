@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './style.css'
 
 const styles ={
@@ -18,6 +19,26 @@ const styles ={
 
 
 function NavBar() {
+  window.onload=function(){
+    const menuBtn = document.querySelector('.menu-btn');
+          const navbar = document.querySelector('.navbar ul');
+            let menuOpen = false;
+            menuBtn.addEventListener('click',()=>{
+              if(!menuOpen) {
+                menuBtn.classList.add('open');
+                navbar.classList.add('open');
+                menuOpen = true;
+              } else {
+                menuBtn.classList.remove('open');
+                navbar.classList.remove('open');
+                menuOpen = false;
+              }
+              document.querySelectorAll('.nav-link').forEach(n => n.addEventListener("click",()=>{
+                menuBtn.classList.remove('open');
+                navbar.classList.remove('open');
+                menuOpen = false;
+              }))
+            })};
   return (
     <header className="header sticky-top shadow p-3 mb-5 bg-light ">
     <div className="container-fluid container-l d-flex align-items-center justify-content-between ">
@@ -39,7 +60,7 @@ function NavBar() {
                 <a className="nav-link" href="#carousel_ad43">Reviews</a>
               </li>
               <li className="nav-item">
-                <a className="btn btn-primary" href="./login.html">Login/signup</a>
+                <Link className="btn btn-primary" to="/react_creampire/login">Login/signup</Link>
               </li>
             </ul>
             <div className="menu-btn">
@@ -52,26 +73,7 @@ function NavBar() {
   )
 }
 
-window.onload=function(){
-const menuBtn = document.querySelector('.menu-btn');
-      const navbar = document.querySelector('.navbar ul');
-        let menuOpen = false;
-        menuBtn.addEventListener('click',()=>{
-          if(!menuOpen) {
-            menuBtn.classList.add('open');
-            navbar.classList.add('open');
-            menuOpen = true;
-          } else {
-            menuBtn.classList.remove('open');
-            navbar.classList.remove('open');
-            menuOpen = false;
-          }
-          document.querySelectorAll('.nav-link').forEach(n => n.addEventListener("click",()=>{
-            menuBtn.classList.remove('open');
-            navbar.classList.remove('open');
-            menuOpen = false;
-          }))
-        })};
+
 
 
 
