@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/react_creampire/static/css/main.d6b468df.css",
-    "main.js": "/react_creampire/static/js/main.499d1c92.js",
+    "main.css": "/react_creampire/static/css/main.12037d3b.css",
+    "main.js": "/react_creampire/static/js/main.93eaa497.js",
     "static/js/787.8dc75242.chunk.js": "/react_creampire/static/js/787.8dc75242.chunk.js",
+    "static/media/bg-image1.jpg": "/react_creampire/static/media/bg-image1.a1456a5df7f85832ba2e.jpg",
     "index.html": "/react_creampire/index.html",
-    "main.d6b468df.css.map": "/react_creampire/static/css/main.d6b468df.css.map",
-    "main.499d1c92.js.map": "/react_creampire/static/js/main.499d1c92.js.map",
+    "main.12037d3b.css.map": "/react_creampire/static/css/main.12037d3b.css.map",
+    "main.93eaa497.js.map": "/react_creampire/static/js/main.93eaa497.js.map",
     "787.8dc75242.chunk.js.map": "/react_creampire/static/js/787.8dc75242.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6b468df.css",
-    "static/js/main.499d1c92.js"
+    "static/css/main.12037d3b.css",
+    "static/js/main.93eaa497.js"
   ]
 }
