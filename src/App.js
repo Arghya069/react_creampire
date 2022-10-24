@@ -10,15 +10,17 @@ import {
   Route,
 } from "react-router-dom";
 import Login from './components/Login';
+import Product from './components/Product';
 
 
 function App() {
   return (
     <div className="App">
         <NavBar />
-        <Caraousal />
-        <Item_p  />
-        <Review />
+        <Routes>
+          <Route path="/product" element={<Product />}/>
+          <Route path="/" element={<Caraousal />}/>
+        </Routes>
       <Footer />
     </div>
   );

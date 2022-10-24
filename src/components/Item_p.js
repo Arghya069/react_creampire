@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Item_p() {
   return (
@@ -15,7 +16,7 @@ function Item_p() {
                     <h5 className="card-title">Choco chip ice-cream</h5>
                     <p className="card-text">A delicious chocolate flavored ice-cream with a blast of warm choco chips inside. A better gift if i say!</p>
                     <div className="d-flex justify-content-between align-items-center">
-                      <a href="./product.html"><button className="btn btn-outline-primary ">Buy Now</button></a>
+                      <Link to="./product"><button className="btn btn-outline-primary ">Buy Now</button></Link>
                       <small className="text-muted">₹250</small>
                     </div>
                   </div>

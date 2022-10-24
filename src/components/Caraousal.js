@@ -1,7 +1,10 @@
 import React from 'react'
+import Item_p from './Item_p';
+import Review from './Review';
 
 function Caraousal() {
   return (
+    <div>
     <div className="container-fluid">
       <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-indicators">
@@ -33,6 +36,9 @@ function Caraousal() {
       </div>
 
       </div>
+      <Item_p/>
+      <Review/>
+    </div>
   )
 }
 

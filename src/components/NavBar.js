@@ -43,7 +43,7 @@ function NavBar() {
     <header className="header sticky-top shadow p-3 mb-5 bg-light ">
     <div className="container-fluid container-l d-flex align-items-center justify-content-between ">
             
-            <a className="navbar-brand" href="#" style={styles.n_brand}>
+            <a className="navbar-brand" href="./" style={styles.n_brand}>
                 <img src="statics/icecrown.png" width="60px" alt="logo" />
                 <span className="navbar-brand mb-0 h1" style={styles.brand}>Creampire!</span>
             </a>

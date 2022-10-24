@@ -3,9 +3,9 @@ import './login.css'
 
 function Login() {
   return (
-    <section className="h-100 gradient-form bg1" style={{backgroundColor: "#eee"}}>
+    <section className=" gradient-form bg1" style={{backgroundColor: "#eee"}}>
         <div className="container py-5 ">
-          <div className="row d-flex justify-content-center align-items-center h-100">
+          <div className="row d-flex justify-content-center align-items-center ">
             <div className="col-xl-10">
               <div className="card rounded-3 text-black">
                 <div className="row g-0">
@@ -30,7 +30,7 @@ function Login() {
                         </div>
       
                         <div className="text-center pt-1 mb-5 pb-1">
-                          <button className="btn1 btn-primary btn-block fa-lg gradient-custom-2 " type="button">Log
+                          <button className="btn btn-primary btn-block fa-lg gradient-custom-2 btn1" type="button">Log
                             in</button> <br/>
                             <a className="text-muted" href="#!">Forgot password?</a>
                         </div>
@@ -64,7 +64,7 @@ function Login() {
                           </div>
         
                           <div className="text-center pt-1 mb-5 pb-1">
-                            <button className="btn1 btn-primary btn-block fa-lg gradient-custom-2 " type="button">Sign up</button>
+                            <button className="btn btn-primary btn-block fa-lg gradient-custom-2 btn1" type="button">Sign up</button>
                           </div>
                           
         

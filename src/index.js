@@ -18,7 +18,7 @@ root.render(
   <Router>
     <Routes>
           <Route path="/react_creampire/login" element={<Login />}/>
-          <Route path="/react_creampire/" element={<App />}/>
+          <Route path="/react_creampire//*" element={<App />}/>
         </Routes>
     </Router>
 );
